@@ -22,22 +22,22 @@ export default function Footer() {
                         <p>
                             Shop on :
                         </p>
-                        <a href="https://www.instagram.com/liyanabeautyy/" target="_blank" rel="noreferrer" className="p-2 rounded-md bg-stone-800 hover:bg-stone-700 transition">
+                        <a href="https://www.instagram.com/ammucosmeticss/" target="_blank" rel="noreferrer" className="p-2 rounded-md bg-stone-800 hover:bg-stone-700 transition">
                             <FaInstagram className="w-5 h-5 text-stone-300" aria-hidden />
                             <span className="sr-only">Instagram</span>
                         </a>
 
-                        <a href="https://wa.me/" target="_blank" rel="noreferrer" className="p-2 rounded-md bg-stone-800 hover:bg-stone-700 transition">
+                        <a href="#" target="_blank" rel="noreferrer" className="p-2 rounded-md bg-stone-800 hover:bg-stone-700 transition">
                             <FaAmazon className="w-5 h-5 text-stone-300" aria-hidden />
                             <span className="sr-only">Amazon</span>
                         </a>
 
-                        <a href="https://wa.me/" target="_blank" rel="noreferrer" className="p-2 rounded-md bg-stone-800 hover:bg-stone-700 transition">
+                        <a href="#" target="_blank" rel="noreferrer" className="p-2 rounded-md bg-stone-800 hover:bg-stone-700 transition">
                             <SiFlipkart className="w-5 h-5 text-stone-300" aria-hidden />
                             <span className="sr-only">Flipkart</span>
                         </a>
 
-                        <a href="https://wa.me/" target="_blank" rel="noreferrer" className="p-2 rounded-md bg-stone-800 hover:bg-stone-700 transition">
+                        <a href="https://wa.me/919766737604" target="_blank" rel="noreferrer" className="p-2 rounded-md bg-stone-800 hover:bg-stone-700 transition">
                             <FaWhatsapp className="w-5 h-5 text-stone-300" aria-hidden />
                             <span className="sr-only">WhatsApp</span>
                         </a>
