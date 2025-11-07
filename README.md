@@ -191,12 +191,8 @@ All pages emit proper JSON-LD:
 - **Code Splitting**: Automatic via Next.js
 - **Tree Shaking**: Removes unused code
 
-## 🔗 Key Integrations
 
-- **Instagram**: [@liyanabeautyy](https://www.instagram.com/liyanabeautyy/)
-- **WhatsApp**: [+91 9766737604](https://wa.me/919766737604)
-- **Email**: ammucosmetics00@gmail.com
-- **Location**: Bhiwandi, Maharashtra, India
+
 
 ## 📝 Scripts
 
@@ -218,20 +214,6 @@ Validate structured data:
 3. **Facebook Debugger**: https://developers.facebook.com/tools/debug/
 4. **Twitter Card Validator**: https://cards-dev.twitter.com/validator
 
-## 🎨 Brand Colors
-
-- **Primary**: `#1c1917` (Stone 900)
-- **Secondary**: `#F8F5F1` (Warm Beige)
-- **Accent**: `#E8E1D9` (Light Taupe)
-- **Text**: `#0f172a` (Slate 900)
-
-## 📞 Contact & Support
-
-For questions or support:
-
-- **Email**: ammucosmetics00@gmail.com
-- **Phone**: +91 9766737604
-- **Address**: Khatiza Compound, Second Floor, Bhiwandi 401503, India
 
 ## 📄 License
 
