@@ -3,10 +3,10 @@ import Link from 'next/link'
 import { AnimatedTestimonialsDemo as Testimonials } from '@/app/components/Testimonials';
 
 export const metadata = {
-  title: 'AMMU COSMETICS — Pure. Natural. You.',
+  title: 'AMMU COSMETICS - Pure. Natural. You.',
   description: 'Natural luxury skincare crafted with ethically sourced ingredients.',
   openGraph: {
-    title: 'AMMU COSMETICS — Pure. Natural. You.',
+    title: 'AMMU COSMETICS - Pure. Natural. You.',
     description: 'Natural luxury skincare crafted with ethically sourced ingredients.',
     images: [{ url: '/og.webp', width: 1200, height: 630, alt: 'AMMU COSMETICS' }],
     url: '/'

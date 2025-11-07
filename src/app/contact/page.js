@@ -34,7 +34,7 @@ const page = () => {
       }
     ],
     sameAs: [
-      'https://www.instagram.com/ammucosmeticss/',
+      'https://www.instagram.com/liyanabeautyy/',
       'https://wa.me/919766737604'
     ],
     priceRange: '₹₹'
@@ -90,7 +90,7 @@ const page = () => {
               <div className="mt-8">
                 <h3 className="mb-4 font-serif text-lg">Shop on :</h3>
                 <div className="flex flex-wrap gap-3">
-                  <a href="https://www.instagram.com/ammucosmeticss/" target="_blank" rel="noreferrer" className="px-4 py-2 rounded-full bg-stone-100 text-stone-700 hover:bg-stone-200 transition">Instagram</a>
+                  <a href="https://www.instagram.com/liyanabeautyy/" target="_blank" rel="noreferrer" className="px-4 py-2 rounded-full bg-stone-100 text-stone-700 hover:bg-stone-200 transition">Instagram</a>
                   <a href="#" className="px-4 py-2 rounded-full bg-stone-100 text-stone-700 hover:bg-stone-200 transition">Amazon</a>
                   <a href="#" className="px-4 py-2 rounded-full bg-stone-100 text-stone-700 hover:bg-stone-200 transition">Flipkart</a>
                   <a href="https://wa.me/919766737604" className="px-4 py-2 rounded-full bg-stone-100 text-stone-700 hover:bg-stone-200 transition">WhatsApp</a>

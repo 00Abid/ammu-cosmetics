@@ -32,5 +32,4 @@ Disallow: /*.env$
 
 
 Sitemap: https://www.ammu-cosmetics.vercel.app/sitemap.xml
-Host: https://www.ammu-cosmetics.vercel.app
-# NOTE: Updated to production domain https://www.ammu-cosmetics.vercel.app
+
