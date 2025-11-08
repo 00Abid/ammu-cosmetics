@@ -1,1 +1,172 @@
 @import "tailwindcss";
+
+@layer utilities {
+  /* Pure CSS scroll animations */
+
+  /* Fade up animation */
+  .scroll-fade-up {
+    opacity: 0;
+    transform: translateY(60px);
+    transition: opacity 0.8s cubic-bezier(0.4, 0, 0.2, 1),
+      transform 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .scroll-fade-up.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  /* Fade down animation */
+  .scroll-fade-down {
+    opacity: 0;
+    transform: translateY(-60px);
+    transition: opacity 0.8s cubic-bezier(0.4, 0, 0.2, 1),
+      transform 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .scroll-fade-down.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  /* Fade left animation */
+  .scroll-fade-left {
+    opacity: 0;
+    transform: translateX(60px);
+    transition: opacity 0.8s cubic-bezier(0.4, 0, 0.2, 1),
+      transform 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .scroll-fade-left.visible {
+    opacity: 1;
+    transform: translateX(0);
+  }
+
+  /* Fade right animation */
+  .scroll-fade-right {
+    opacity: 0;
+    transform: translateX(-60px);
+    transition: opacity 0.8s cubic-bezier(0.4, 0, 0.2, 1),
+      transform 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .scroll-fade-right.visible {
+    opacity: 1;
+    transform: translateX(0);
+  }
+
+  /* Simple fade animation */
+  .scroll-fade {
+    opacity: 0;
+    transition: opacity 1s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .scroll-fade.visible {
+    opacity: 1;
+  }
+
+  /* Zoom in animation */
+  .scroll-zoom-in {
+    opacity: 0;
+    transform: scale(0.85);
+    transition: opacity 0.8s cubic-bezier(0.4, 0, 0.2, 1),
+      transform 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .scroll-zoom-in.visible {
+    opacity: 1;
+    transform: scale(1);
+  }
+
+  /* Zoom out animation */
+  .scroll-zoom-out {
+    opacity: 0;
+    transform: scale(1.15);
+    transition: opacity 0.8s cubic-bezier(0.4, 0, 0.2, 1),
+      transform 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .scroll-zoom-out.visible {
+    opacity: 1;
+    transform: scale(1);
+  }
+
+  /* Flip animations */
+  .scroll-flip-left {
+    opacity: 0;
+    transform: perspective(1000px) rotateY(-90deg);
+    transform-origin: center;
+    transition: opacity 0.8s cubic-bezier(0.4, 0, 0.2, 1),
+      transform 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .scroll-flip-left.visible {
+    opacity: 1;
+    transform: perspective(1000px) rotateY(0);
+  }
+
+  .scroll-flip-right {
+    opacity: 0;
+    transform: perspective(1000px) rotateY(90deg);
+    transform-origin: center;
+    transition: opacity 0.8s cubic-bezier(0.4, 0, 0.2, 1),
+      transform 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .scroll-flip-right.visible {
+    opacity: 1;
+    transform: perspective(1000px) rotateY(0);
+  }
+
+  /* Slide animations */
+  .scroll-slide-up {
+    opacity: 0;
+    transform: translateY(100px);
+    transition: opacity 0.6s cubic-bezier(0.4, 0, 0.2, 1),
+      transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .scroll-slide-up.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  /* Delay utilities */
+  .delay-100 {
+    transition-delay: 100ms !important;
+  }
+  .delay-200 {
+    transition-delay: 200ms !important;
+  }
+  .delay-300 {
+    transition-delay: 300ms !important;
+  }
+  .delay-400 {
+    transition-delay: 400ms !important;
+  }
+  .delay-500 {
+    transition-delay: 500ms !important;
+  }
+  .delay-600 {
+    transition-delay: 600ms !important;
+  }
+  .delay-700 {
+    transition-delay: 700ms !important;
+  }
+  .delay-800 {
+    transition-delay: 800ms !important;
+  }
+
+  /* Duration utilities */
+  .duration-fast {
+    transition-duration: 400ms !important;
+  }
+
+  .duration-slow {
+    transition-duration: 1200ms !important;
+  }
+
+  .duration-slower {
+    transition-duration: 1600ms !important;
+  }
+}

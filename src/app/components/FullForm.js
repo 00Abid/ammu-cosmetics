@@ -1,5 +1,6 @@
 "use client";
 import React, { useState } from "react";
+import ScrollReveal from './ScrollReveal';
 
 const FullForm = () => {
     const [form, setForm] = useState({ name: "", email: "", message: "" });
@@ -27,7 +28,9 @@ const FullForm = () => {
     };
 
     return (
-        <form onSubmit={handleSubmit} className="space-y-6">
+        <form onSubmit={handleSubmit} className="space-y-6 scroll-fade">
+            <ScrollReveal />
+
             <div>
                 <label htmlFor="name" className="block text-sm font-medium text-stone-500 tracking-wider uppercase">Name</label>
                 <input

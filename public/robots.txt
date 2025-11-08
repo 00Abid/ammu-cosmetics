@@ -3,7 +3,6 @@
 User-agent: *
 Allow: /
 
-# Sitemap location (helps bots discover your site structure)
 Sitemap: https://ammu-cosmetics.vercel.app/sitemap.xml
 
 # Explicitly allow major search engine bots
@@ -30,6 +29,4 @@ Disallow: /private/
 Disallow: /*.env$
 
 
-
-Sitemap: https://www.ammu-cosmetics.vercel.app/sitemap.xml
 

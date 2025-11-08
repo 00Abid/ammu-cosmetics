@@ -1,3 +1,28 @@
+import ScrollReveal from '../components/ScrollReveal';
+import Link from 'next/link';
+
+export const metadata = {
+  title: 'Why Choose Natural Luxury Skincare? | Ethical Beauty Benefits - AMMU COSMETICS',
+  description: 'Learn why AMMU COSMETICS natural luxury skincare is better for you. Discover benefits of cruelty-free, ethically sourced, sustainable beauty products. FAQ about organic skincare ingredients.',
+  keywords: [
+    'why choose natural skincare',
+    'benefits of organic beauty',
+    'cruelty-free skincare benefits',
+    'ethical beauty products',
+    'sustainable cosmetics',
+    'natural vs synthetic skincare',
+    'luxury natural ingredients',
+    'chemical-free beauty'
+  ],
+  openGraph: {
+    title: 'Why Choose AMMU COSMETICS | Natural Luxury Skincare Benefits',
+    description: 'Discover the benefits of natural luxury skincare - ethically sourced, cruelty-free, and sustainable beauty products that work.',
+    images: [{ url: '/og.webp', width: 1200, height: 630, alt: 'AMMU COSMETICS Why Us' }],
+    url: '/why'
+  },
+  alternates: { canonical: '/why' }
+};
+
 const page = () => {
 
   const faqs = [
@@ -928,6 +953,7 @@ const page = () => {
   };
   return (
     <div className="min-h-screen pt-16 bg-[#F8F5F1]">
+      <ScrollReveal />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
@@ -945,7 +971,7 @@ const page = () => {
           {faqs.map((faq, index) => (
             <div
               key={index}
-              className="p-8 transition-all duration-500 transform bg-white card-hover hover:-translate-y-2 hover:shadow-xl"
+              className="p-8 transition-all duration-500 transform bg-white card-hover hover:-translate-y-2 hover:shadow-xl scroll-zoom-out"
             >
               <h3 className="mb-2 font-serif text-2xl">{faq.title}</h3>
               <p className="mb-6 font-light text-stone-600">{faq.description}</p>
@@ -962,21 +988,25 @@ const page = () => {
 
           ))}
         </div>
+
+        {/* Internal Links Section */}
+        <div className="mt-20 p-8 bg-white rounded-lg text-center">
+          <h2 className="mb-4 font-serif text-2xl">Ready to Experience Natural Luxury?</h2>
+          <p className="mb-6 text-stone-600">
+            Explore our <Link href="/products" className="font-medium text-stone-900 hover:underline">premium natural skincare collection</Link> featuring <Link href="/products#Multani-Mitti" className="font-medium text-stone-900 hover:underline">Multani Mitti</Link>, <Link href="/products#Aloe-Rose-Water-Toner" className="font-medium text-stone-900 hover:underline">rose water toner</Link>, and more. Visit our <Link href="/contact" className="font-medium text-stone-900 hover:underline">store in Bhiwandi</Link> or <Link href="/" className="font-medium text-stone-900 hover:underline">learn about our brand</Link>.
+          </p>
+          <div className="flex flex-wrap justify-center gap-4">
+            <Link href="/products" className="px-6 py-2 bg-stone-900 text-white rounded-full hover:bg-stone-700 transition">
+              Shop Products
+            </Link>
+            <Link href="/contact" className="px-6 py-2 border-2 border-stone-900 text-stone-900 rounded-full hover:bg-stone-900 hover:text-white transition">
+              Contact Us
+            </Link>
+          </div>
+        </div>
       </div>
     </div>
   )
 }
 
 export default page
-
-export const metadata = {
-  title: 'Why AMMU COSMETICS - Natural Luxury Skincare',
-  description: 'FAQs and reasons to choose AMMU COSMETICS - ethical, natural, and luxury skincare.',
-  openGraph: {
-    title: 'Why AMMU COSMETICS - Natural Luxury Skincare',
-    description: 'FAQs and reasons to choose AMMU COSMETICS - ethical, natural, and luxury skincare.',
-    url: '/why',
-    images: [{ url: '/og.webp', width: 1200, height: 630 }]
-  },
-  alternates: { canonical: '/why' }
-};

@@ -1,6 +1,7 @@
 import "./globals.css";
 import BubbleMenu from "./components/BubbleMenu";
 import Footer from "./components/Footer";
+import BreadcrumbSchema from "./components/BreadcrumbSchema";
 
 
 export const metadataBase = new URL("https://www.ammu-cosmetics.vercel.app");
@@ -47,6 +48,11 @@ export const metadata = {
       index: true,
       follow: true
     }
+  },
+  verification: {
+    google: "your-google-verification-code-here",
+    // Add your actual verification code from Google Search Console
+    // Example: google: "1234567890abcdefghijklmnopqrstuvwxyz"
   }
 };
 
@@ -90,6 +96,7 @@ export default function RootLayout({ children }) {
         <link rel="dns-prefetch" href="https://www.instagram.com" />
       </head>
       <body>
+        <BreadcrumbSchema />
         <BubbleMenu
           logo="/ammu-logo.webp"
           items={items}
@@ -130,6 +137,41 @@ export default function RootLayout({ children }) {
                       areaServed: "IN",
                       availableLanguage: ["en", "hi"]
                     }
+                  ]
+                },
+                {
+                  "@type": "LocalBusiness",
+                  "@id": metadataBase.href + "#localbusiness",
+                  name: "AMMU COSMETICS",
+                  image: new URL('/ammu-logo.webp', metadataBase).href,
+                  url: metadataBase.href,
+                  telephone: "+91-9766737604",
+                  email: "ammucosmetics00@gmail.com",
+                  priceRange: "₹₹",
+                  address: {
+                    "@type": "PostalAddress",
+                    streetAddress: "Khatiza Compound, Second Floor",
+                    addressLocality: "Bhiwandi",
+                    addressRegion: "Maharashtra",
+                    postalCode: "401503",
+                    addressCountry: "IN"
+                  },
+                  geo: {
+                    "@type": "GeoCoordinates",
+                    latitude: 19.3009,
+                    longitude: 73.0635
+                  },
+                  openingHoursSpecification: [
+                    {
+                      "@type": "OpeningHoursSpecification",
+                      dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+                      opens: "09:00",
+                      closes: "18:00"
+                    }
+                  ],
+                  sameAs: [
+                    "https://www.instagram.com/liyanabeautyy/",
+                    "https://wa.me/919766737604"
                   ]
                 },
                 {
