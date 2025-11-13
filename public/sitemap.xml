@@ -19,6 +19,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://www.ammu-cosmetics.vercel.app/blog</loc>
+    <lastmod>2024-11-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://www.ammu-cosmetics.vercel.app/contact</loc>
     <lastmod>2024-11-08</lastmod>
     <changefreq>monthly</changefreq>

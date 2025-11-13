@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  
+  <!-- Homepage Images -->
+  <url>
+    <loc>https://www.ammu-cosmetics.vercel.app/</loc>
+    <image:image>
+      <image:loc>https://www.ammu-cosmetics.vercel.app/ammu-logo.webp</image:loc>
+      <image:title>AMMU COSMETICS Logo</image:title>
+      <image:caption>Natural luxury skincare brand logo</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.ammu-cosmetics.vercel.app/natural%20beauty.webp</image:loc>
+      <image:title>Natural Luxury Skincare</image:title>
+      <image:caption>Premium natural ingredients for luxury skincare</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.ammu-cosmetics.vercel.app/ethical%20beauty.webp</image:loc>
+      <image:title>Ethical Beauty Products</image:title>
+      <image:caption>Cruelty-free and ethically sourced beauty products</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.ammu-cosmetics.vercel.app/luxury.webp</image:loc>
+      <image:title>Sustainable Luxury</image:title>
+      <image:caption>Eco-conscious packaging and sustainable practices</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.ammu-cosmetics.vercel.app/og.webp</image:loc>
+      <image:title>AMMU COSMETICS - Pure. Natural. You.</image:title>
+      <image:caption>Natural luxury skincare and cosmetics in Bhiwandi</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Products Page Images -->
+  <url>
+    <loc>https://www.ammu-cosmetics.vercel.app/products</loc>
+    <image:image>
+      <image:loc>https://www.ammu-cosmetics.vercel.app/mitti.webp</image:loc>
+      <image:title>Multani Mitti - Natural Clay Face Pack</image:title>
+      <image:caption>Pure mineral-rich clay for deeply cleansed natural glow - ₹150</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.ammu-cosmetics.vercel.app/mitti-paste.webp</image:loc>
+      <image:title>Multani Mitti Paste</image:title>
+      <image:caption>Velvety mineral paste for instant deep cleansing - ₹250</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.ammu-cosmetics.vercel.app/toner.webp</image:loc>
+      <image:title>Aloe + Rose Water Toner</image:title>
+      <image:caption>Soothing botanical mist for hydrated balanced glowing skin - ₹200</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.ammu-cosmetics.vercel.app/black.webp</image:loc>
+      <image:title>Blackheads Removal Treatment</image:title>
+      <image:caption>Advanced pore purifier for pristine clarity - ₹700</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.ammu-cosmetics.vercel.app/makeup.webp</image:loc>
+      <image:title>Bridal Makeup Services Bhiwandi</image:title>
+      <image:caption>Professional bridal makeup with natural products - ₹1500</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.ammu-cosmetics.vercel.app/stiching.webp</image:loc>
+      <image:title>Stitching Services</image:title>
+      <image:caption>Masterful tailoring for bespoke elegance - ₹500</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Why Us Page -->
+  <url>
+    <loc>https://www.ammu-cosmetics.vercel.app/why</loc>
+    <image:image>
+      <image:loc>https://www.ammu-cosmetics.vercel.app/og.webp</image:loc>
+      <image:title>Why Choose AMMU COSMETICS</image:title>
+      <image:caption>Natural luxury, ethical beauty, and sustainable practices</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Contact Page -->
+  <url>
+    <loc>https://www.ammu-cosmetics.vercel.app/contact</loc>
+    <image:image>
+      <image:loc>https://www.ammu-cosmetics.vercel.app/ammu-logo.webp</image:loc>
+      <image:title>Contact AMMU COSMETICS Bhiwandi</image:title>
+      <image:caption>Natural skincare store in Bhiwandi, Maharashtra</image:caption>
+    </image:image>
+  </url>
+
+</urlset>

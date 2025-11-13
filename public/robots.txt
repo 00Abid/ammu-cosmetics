@@ -4,6 +4,7 @@ User-agent: *
 Allow: /
 
 Sitemap: https://ammu-cosmetics.vercel.app/sitemap.xml
+Sitemap: https://ammu-cosmetics.vercel.app/image-sitemap.xml
 
 # Explicitly allow major search engine bots
 User-agent: Googlebot

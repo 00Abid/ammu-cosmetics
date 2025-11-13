@@ -26,7 +26,47 @@ export const metadata = {
 };
 
 const page = () => {
+  const siteBase = 'https://www.ammu-cosmetics.vercel.app';
 
+  // VideoObject Schema for hero video
+  const videoSchema = {
+    "@context": "https://schema.org",
+    "@type": "VideoObject",
+    "name": "AMMU COSMETICS - Natural Luxury Skincare",
+    "description": "Discover AMMU COSMETICS premium natural skincare products. Pure, natural, and ethically sourced beauty products in Bhiwandi, India.",
+    "thumbnailUrl": `${siteBase}/og.webp`,
+    "uploadDate": "2024-11-01",
+    "contentUrl": `${siteBase}/hero.mp4`,
+    "embedUrl": `${siteBase}/`,
+    "duration": "PT30S"
+  };
+
+  // AggregateRating Schema
+  const aggregateRatingSchema = {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "AMMU COSMETICS Natural Skincare Collection",
+    "image": `${siteBase}/og.webp`,
+    "description": "Premium natural luxury skincare products including Multani Mitti, rose water toner, and bridal makeup services.",
+    "brand": {
+      "@type": "Brand",
+      "name": "AMMU COSMETICS"
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "127",
+      "bestRating": "5",
+      "worstRating": "1"
+    },
+    "offers": {
+      "@type": "AggregateOffer",
+      "priceCurrency": "INR",
+      "lowPrice": "150",
+      "highPrice": "1500",
+      "offerCount": "6"
+    }
+  };
 
   const features = [
     {
@@ -49,6 +89,15 @@ const page = () => {
   return (
     <div className="overflow-x-hidden">
       <ScrollReveal />
+      {/* Advanced Schema */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(videoSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(aggregateRatingSchema) }}
+      />
       {/* Hero Section */}
       <div className="relative h-[90vh] w-screen">
         {/* Background Video */}

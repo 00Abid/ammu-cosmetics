@@ -73,6 +73,13 @@ export default function RootLayout({ children }) {
       hoverStyles: { bgColor: '#E8E1D9', textColor: '#000000' }
     },
     {
+      label: 'Blog',
+      href: '/blog',
+      ariaLabel: 'Blog',
+      rotation: -8,
+      hoverStyles: { bgColor: '#E8E1D9', textColor: '#000000' }
+    },
+    {
       label: 'Why Us?',
       href: '/why',
       ariaLabel: 'Why Us?',
