@@ -15,12 +15,7 @@ export default function manifest() {
             },
             {
                 src: '/ammu-logo.webp',
-                sizes: '192x192',
-                type: 'image/webp',
-            },
-            {
-                src: '/ammu-logo.webp',
-                sizes: '512x512',
+                sizes: '192x192 512x512', // Using your single logo for both sizes
                 type: 'image/webp',
             },
         ],

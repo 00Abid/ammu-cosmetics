@@ -324,7 +324,7 @@ const page = () => {
             <article
               key={post.id}
               id={post.id}
-              className="bg-white rounded-2xl overflow-hidden shadow-sm scroll-fade-up"
+              className="bg-white overflow-hidden shadow-sm scroll-fade-up"
             >
               <div className="relative h-64 md:h-80 overflow-hidden">
                 <Image
@@ -376,7 +376,7 @@ const page = () => {
         </div>
 
         {/* CTA Section */}
-        <div className="mt-20 p-12 bg-stone-900 text-white rounded-2xl text-center scroll-fade-up">
+        <div className="mt-20 p-12 bg-stone-900 text-white text-center scroll-fade-up">
           <h2 className="mb-4 font-serif text-3xl">Ready to Transform Your Skin?</h2>
           <p className="mb-8 text-stone-300 max-w-2xl mx-auto">
             Experience the power of nature with our premium skincare collection.
